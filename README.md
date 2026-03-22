@@ -15,5 +15,5 @@ This repository is under construction. It will be complete soon.
 ![Status](https://img.shields.io/badge/Status-Camera%20Ready-brightgreen)
 
 <p align="center">
-  <img src="./BSTabDiffArchitecture.png" alt="BSTabDiff Architecture" width="900">
+  <img src="./BSTabDiffArchi.png" alt="BSTabDiff Architecture" width="900">
 </p>
