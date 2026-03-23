@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bstabdiff"
+version = "0.1.0"
+description = "BSTabDiff: Block-Subunit Diffusion Priors for High-Dimensional Tabular Data Generation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Al Zadid Sultan Bin Habib" },
+  { name = "Md Younus Ahamed" },
+  { name = "Prashnna Kumar Gyawali" },
+  { name = "Gianfranco Doretto" },
+  { name = "Donald A. Adjeroh" }
+]
+keywords = [
+  "tabular-data",
+  "generative-modeling",
+  "diffusion",
+  "flow",
+  "HDLSS",
+  "synthetic-data"
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+  "numpy==2.2.6",
+  "torch>=2.9.1",
+  "pandas==2.3.3",
+  "scikit-learn==1.7.2",
+  "catboost==1.2.8",
+  "tabpfn==6.3.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/zadid6pretam/BSTabDiff"
+Source = "https://github.com/zadid6pretam/BSTabDiff"
+Issues = "https://github.com/zadid6pretam/BSTabDiff/issues"
+Paper = "https://openreview.net/forum?id=RKNDy0KhGT"
+Workshop = "https://delta-workshop.github.io/DeLTa2026/"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["bstabdiff*"]
