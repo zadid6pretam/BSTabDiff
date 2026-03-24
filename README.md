@@ -1,7 +1,5 @@
 # BSTabDiff: Block-Subunit Diffusion Priors for High-Dimensional Tabular Data Generation
 
-This repository is under construction. It will be complete soon. 
-
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Task](https://img.shields.io/badge/Task-HDLSS%20Tabular%20Synthesis-orange)
