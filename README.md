@@ -58,6 +58,9 @@ This folder contains the core BSTabDiff implementation:
 - **`BSTabDiff_Lung.ipynb`**  
   Contains the Lung dataset experiments using Logistic Regression as the downstream classifier, along with selected fidelity analysis.
 
+  - **`BSTabDiff_PIP_Install_Check.ipynb`**
+    Demonstration of BSTabDiff in a Google Colab notebook using pip installation with some toy examples.
+
 ### Other top-level files
 
 - **`requirements.txt`** - Python dependencies required to run the BSTabDiff package and notebooks.
