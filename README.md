@@ -52,13 +52,13 @@ This folder contains the core BSTabDiff implementation:
   Contains simple toy examples showing how to install/import the `bstabdiff` package, fit BSTabDiff on a dummy HDLSS dataset, and sample synthetic data.
 
 - **`BSTabDiff_Colon.ipynb`**  
-  Contains the Colon dataset experiments from the paper. The downstream classifiers include **Logistic Regression**, **TabPFN-2.5** (currently applicable only when the number of features is within its supported range, so Colon is eligible), **TANDEM** (NeurIPS 2025), and **CatBoost**. This notebook also includes the paper’s ablation studies and related fidelity analysis.
+  Contains the Colon dataset experiments from the paper. The downstream classifiers include Logistic Regression, TabPFN-2.5 (currently applicable only when the number of features is within its supported range, so Colon is eligible), TANDEM (NeurIPS 2025), and CatBoost. This notebook also includes the paper’s ablation studies and related fidelity analysis.
 
 - **`BSTabDiff_GLI.ipynb`**  
-  Contains the GLI-85 experiments using **Logistic Regression** as the downstream classifier, along with selected fidelity analysis.
+  Contains the GLI-85 experiments using Logistic Regression as the downstream classifier, along with selected fidelity analysis.
 
 - **`BSTabDiff_Lung.ipynb`**  
-  Contains the Lung dataset experiments using **Logistic Regression** as the downstream classifier, along with selected fidelity analysis.
+  Contains the Lung dataset experiments using Logistic Regression as the downstream classifier, along with selected fidelity analysis.
 
 ### Other top-level files
 
