@@ -206,7 +206,7 @@ Our earlier work on sequential modeling for tabular data:
 }
 ```
 
-If you are interested in sequential ordering for tabular data, deep sequential backbones, and early feature-ordering-based tabular modeling, please also refer to the **TabSeq** repository and paper.
+- If you are interested in sequential ordering for tabular data, deep sequential backbones, and early feature-ordering-based tabular modeling, please also refer to the **TabSeq** repository and paper.
 
 ### DynaTab
 
