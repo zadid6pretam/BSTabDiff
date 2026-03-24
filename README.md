@@ -137,7 +137,7 @@ from bstabdiff import FeatureSpec, fit_block_subunit_generator
 
 # Dummy HDLSS data
 np.random.seed(42)
-n, m = 80, 200
+n, m = 80, 2000
 X = np.random.randn(n, m).astype(np.float32)
 y = np.random.randint(0, 2, size=n)
 X[np.random.rand(n, m) < 0.1] = np.nan
