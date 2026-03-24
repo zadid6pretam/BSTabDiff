@@ -183,7 +183,7 @@ print("Best training info:", train_info)
 - BSTabDiff_GLI.ipynb
 - BSTabDiff_Lung.ipynb
 
-## Related Work on Tabular Deep Learning
+## Our Previous Related Work on Tabular Deep Learning
 
 BSTabDiff is part of our broader line of work on tabular deep learning and high-dimensional tabular modeling.
 
