@@ -35,6 +35,7 @@ BibTeX:
   booktitle = {ICLR 2026 2nd Workshop on Deep Generative Models in Machine Learning: Theory, Principle and Efficacy (DeLTa)},
   year      = {2026}
 }
+```
 
 ## Files and Repository Structure
 
