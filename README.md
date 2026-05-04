@@ -1,4 +1,5 @@
 # BSTabDiff: Block-Subunit Diffusion Priors for High-Dimensional Tabular Data Generation.
+
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Task](https://img.shields.io/badge/Task-HDLSS%20Tabular%20Synthesis-orange)
@@ -11,9 +12,11 @@
 [![Workshop Page](https://img.shields.io/badge/DeLTa%202026-Website-1f6feb)](https://delta-workshop.github.io/DeLTa2026/)
 ![Status](https://img.shields.io/badge/Status-Camera%20Ready-brightgreen)
 
+
 <p align="center">
   <img src="./BSTabDiffArchi.png" alt="BSTabDiff Architecture" width="900">
 </p>
+
 
 BSTabDiff is a block-subunit generative framework for **High-Dimensional Low-Sample-Size (HDLSS) tabular data synthesis**. Rather than learning dependence directly in the original high-dimensional feature space, it partitions the feature space into **M latent blocks, where M ≪ m**, models global structure through a compact diffusion/flow prior over block latents, and decodes back to the full table using copula-based dependence, flexible feature-wise marginals, and explicit missingness modeling. This design makes BSTabDiff especially well suited for omics-style and other HDLSS settings, where direct high-dimensional density learning is often unstable. Across multiple HDLSS benchmarks, BSTabDiff generates more realistic and stable synthetic data than several widely used tabular generators, while often approaching downstream performance obtained from real data.
 
