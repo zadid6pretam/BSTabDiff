@@ -36,6 +36,7 @@ BibTeX:
   year      = {2026}
 }
 ```
+- ICLR Page: https://iclr.cc/virtual/2026/10017199
 
 ## Files and Repository Structure
 
@@ -194,7 +195,8 @@ BSTabDiff is part of our broader line of work on tabular deep learning and high-
 
 Our recent ICML 2026 Regular main conference paper on feature ordering and compression for tabular foundation models for high-dimensional low-sample-size tabular data:
 - GOTabPFN: From Feature Ordering to Compact Tokenization for Tabular Foundation Models on High-Dimensional Data
-GitHub: https://github.com/zadid6pretam/GOTabPFN
+- GitHub: https://github.com/zadid6pretam/GOTabPFN
+- ICML Page: https://icml.cc/virtual/2026/poster/62523
 
 ```bibtex
 @inproceedings{habib2026gotabpfn,
@@ -209,7 +211,8 @@ GitHub: https://github.com/zadid6pretam/GOTabPFN
 
 Our generative modeling framework for high-dimensional low-sample-size tabular data:
 - BSTabDiff: Block-Subunit Diffusion Priors for High-Dimensional Tabular Data Generation
-GitHub: https://github.com/zadid6pretam/BSTabDiff
+- GitHub: https://github.com/zadid6pretam/BSTabDiff
+- ICLR Page: https://iclr.cc/virtual/2026/10017199
 
 ```bibtex
 @inproceedings{habib2026bstabdiff,
@@ -226,7 +229,7 @@ GitHub: https://github.com/zadid6pretam/BSTabDiff
 Our structured feature sequencing framework for multimodal learning with image and tabular data. This work is part of my PhD research on feature sequencing or ordering for multimodal image-tabular representation learning.
 
 - **iStructTab: Structured Feature Sequencing for Multimodal Learning of Image and Tabular Data**  
-  GitHub: https://github.com/zadid6pretam/iStructTab
+- GitHub: https://github.com/zadid6pretam/iStructTab
 
 ```bibtex
 @inproceedings{habib2026istructtab,
@@ -244,7 +247,7 @@ Our structured feature sequencing framework for multimodal learning with image a
 Our more recent work on learned feature ordering for high-dimensional tabular data:
 
 - **DynaTab: Dynamic Feature Ordering as Neural Rewiring for High-Dimensional Tabular Data**
-GitHub: https://github.com/zadid6pretam/DynaTab
+- GitHub: https://github.com/zadid6pretam/DynaTab
 
 ```bibtex
 @inproceedings{habib2026dynatab,
@@ -256,7 +259,8 @@ GitHub: https://github.com/zadid6pretam/DynaTab
 }
 ```
 - If you are interested in learned feature ordering, neural rewiring for high-dimensional tabular data, and sequential backbone design for HDLSS settings, please also refer to the DynaTab repository and paper.
-- DynaTab has completed camera-ready submission, and the public proceedings version is expected to appear online later.
+- Paper Link: https://proceedings.mlr.press/v308/habib26a.html
+- arXiv: https://arxiv.org/abs/2605.03430
 
 
 ### TabSeq
@@ -264,8 +268,9 @@ GitHub: https://github.com/zadid6pretam/DynaTab
 Our earlier work on sequential modeling for tabular data:
 
 - **TabSeq: A Framework for Deep Learning on Tabular Data via Sequential Ordering**  
-  GitHub: https://github.com/zadid6pretam/TabSeq  
-  Springer ICPR 2024 proceedings: https://link.springer.com/chapter/10.1007/978-3-031-78128-5_27
+ - GitHub: https://github.com/zadid6pretam/TabSeq  
+ - Springer ICPR 2024 proceedings: https://link.springer.com/chapter/10.1007/978-3-031-78128-5_27
+ - arXiv: https://arxiv.org/abs/2410.13203
 
 ```bibtex
 @inproceedings{habib2024tabseq,
@@ -287,7 +292,8 @@ Our earlier work on sequential modeling for tabular data:
 
 This repository corresponds to our separate collaborative work on tabular remote sensing and environmental data:
 - ZAYAN: Disentangled Contrastive Transformer for Tabular Remote Sensing Data
-GitHub: https://github.com/zadid6pretam/ZAYAN
+- GitHub: https://github.com/zadid6pretam/ZAYAN
+- arXiv: https://arxiv.org/abs/2604.27606
 
 ```bibtex
 @inproceedings{habib2026zayan,
