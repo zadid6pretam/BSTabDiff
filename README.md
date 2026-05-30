@@ -194,7 +194,7 @@ BSTabDiff is part of our broader line of work on tabular deep learning and high-
 ### GOTabPFN
 
 Our recent ICML 2026 Regular main conference paper on feature ordering and compression for tabular foundation models for high-dimensional low-sample-size tabular data:
-- GOTabPFN: From Feature Ordering to Compact Tokenization for Tabular Foundation Models on High-Dimensional Data
+- **GOTabPFN: From Feature Ordering to Compact Tokenization for Tabular Foundation Models on High-Dimensional Data**
 - GitHub: https://github.com/zadid6pretam/GOTabPFN
 - ICML Page: https://icml.cc/virtual/2026/poster/62523
 
@@ -210,7 +210,7 @@ Our recent ICML 2026 Regular main conference paper on feature ordering and compr
 ### BSTabDiff
 
 Our generative modeling framework for high-dimensional low-sample-size tabular data:
-- BSTabDiff: Block-Subunit Diffusion Priors for High-Dimensional Tabular Data Generation
+- **BSTabDiff: Block-Subunit Diffusion Priors for High-Dimensional Tabular Data Generation**
 - GitHub: https://github.com/zadid6pretam/BSTabDiff
 - ICLR Page: https://iclr.cc/virtual/2026/10017199
 
@@ -291,7 +291,7 @@ Our earlier work on sequential modeling for tabular data:
 ### ZAYAN
 
 This repository corresponds to our separate collaborative work on tabular remote sensing and environmental data:
-- ZAYAN: Disentangled Contrastive Transformer for Tabular Remote Sensing Data
+- **ZAYAN: Disentangled Contrastive Transformer for Tabular Remote Sensing Data**
 - GitHub: https://github.com/zadid6pretam/ZAYAN
 - arXiv: https://arxiv.org/abs/2604.27606
 
