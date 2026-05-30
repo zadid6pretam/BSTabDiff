@@ -191,7 +191,7 @@ print("Best training info:", train_info)
 
 BSTabDiff is part of our broader line of work on tabular deep learning and high-dimensional tabular modeling.
 
-### GOTabPFN
+### GOTabPFN (ICML 2026 Regular)
 
 Our recent ICML 2026 Regular main conference paper on feature ordering and compression for tabular foundation models for high-dimensional low-sample-size tabular data:
 - **GOTabPFN: From Feature Ordering to Compact Tokenization for Tabular Foundation Models on High-Dimensional Data**
@@ -207,7 +207,7 @@ Our recent ICML 2026 Regular main conference paper on feature ordering and compr
 }
 ```
 
-### BSTabDiff
+### BSTabDiff (ICLR 2026 DeLTa Workshop)
 
 Our generative modeling framework for high-dimensional low-sample-size tabular data:
 - **BSTabDiff: Block-Subunit Diffusion Priors for High-Dimensional Tabular Data Generation**
@@ -224,7 +224,7 @@ Our generative modeling framework for high-dimensional low-sample-size tabular d
 ```
 - If you are interested in high-dimensional tabular synthesis, block-subunit generation, and diffusion/flow priors for HDLSS tabular data, please also refer to the BSTabDiff repository and paper.
 
-### iStructTab
+### iStructTab (ICPR 2026)
 
 Our structured feature sequencing framework for multimodal learning with image and tabular data. This work is part of my PhD research on feature sequencing or ordering for multimodal image-tabular representation learning.
 
@@ -242,7 +242,7 @@ Our structured feature sequencing framework for multimodal learning with image a
 ```
 - If you are interested in structured feature sequencing, multimodal fusion of image and tabular data (the integration problem), and feature order-aware tabular representation learning, please also refer to the iStructTab repository and paper.
 
-## DynaTab
+## DynaTab (AAAI 2026 NeuroAI Workshop)
 
 Our more recent work on learned feature ordering for high-dimensional tabular data:
 
@@ -267,7 +267,7 @@ Our more recent work on learned feature ordering for high-dimensional tabular da
 - arXiv: https://arxiv.org/abs/2605.03430
 
 
-### TabSeq
+### TabSeq (ICPR 2024)
 
 Our earlier work on sequential modeling for tabular data:
 
@@ -292,7 +292,7 @@ Our earlier work on sequential modeling for tabular data:
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### ZAYAN
+### ZAYAN (ICPR 2026)
 
 This repository corresponds to our separate collaborative work on tabular remote sensing and environmental data:
 - **ZAYAN: Disentangled Contrastive Transformer for Tabular Remote Sensing Data**
