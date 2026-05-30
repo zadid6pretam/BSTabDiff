@@ -207,7 +207,7 @@ Our recent ICML 2026 Regular main conference paper on feature ordering and compr
 }
 ```
 
-### BSTabDiff (ICLR 2026 DeLTa Workshop)
+### BSTabDiff (ICLR 2026 DeLTa Workshop, non-archival)
 
 Our generative modeling framework for high-dimensional low-sample-size tabular data:
 - **BSTabDiff: Block-Subunit Diffusion Priors for High-Dimensional Tabular Data Generation**
