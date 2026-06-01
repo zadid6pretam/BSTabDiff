@@ -49,6 +49,8 @@ This folder contains the core BSTabDiff implementation:
 - `block_subunit_gen.py` - Main BSTabDiff implementation, including feature schema, empirical marginals, block-subunit emissions, diffusion/flow priors, training, and synthetic sampling utilities.
 
 ### Notebooks
+**Since May 30, 2026, all Jupyter notebook previews are failing with "An error occurred" message. This affects both my own notebooks and others' repositories. Using nbformat v5.10.4 and nbconvert v7.17.1. Notebooks are valid and working locally. This appears to be a GitHub-side rendering issue.**
+- See: https://github.com/orgs/community/discussions/197350
 
 - **`Dummy Example Usage.ipynb`**  
   Contains simple toy examples showing how to install/import the `bstabdiff` package, fit BSTabDiff on a dummy HDLSS dataset, and sample synthetic data.
