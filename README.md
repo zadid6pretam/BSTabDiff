@@ -194,12 +194,16 @@ print("Best training info:", train_info)
 
 BSTabDiff is part of our broader line of work on tabular deep learning and high-dimensional tabular modeling.
 
-### GOTabPFN (ICML 2026 Regular)
+### GOTabPFN (ICML 2026)
 
 Our recent ICML 2026 Regular main conference paper on feature ordering and compression for tabular foundation models for high-dimensional low-sample-size tabular data:
 - **GOTabPFN: From Feature Ordering to Compact Tokenization for Tabular Foundation Models on High-Dimensional Data**
+
 - GitHub: https://github.com/zadid6pretam/GOTabPFN
-- ICML Page: https://icml.cc/virtual/2026/poster/62523
+- - **Find it on ICML portal:** https://icml.cc/virtual/2026/poster/62523
+- **Project Webpage:** https://www.zadidhabib.com/gotabpfn.html
+- **OpenReview:** https://openreview.net/forum?id=fpqfV3lCIB
+- **Hugging Face Space:** [ZeroGPU Live Demo](https://zadid6pretam-GOTabPFN.hf.space) *(recommended; faster GPU-backed testing)* | [CPU Backup Demo](https://zadid6pretam-GOTabPFN-CPU.hf.space) *(use if ZeroGPU is unavailable)* | [ZeroGPU Space Repository](https://huggingface.co/spaces/zadid6pretam/GOTabPFN) | [CPU Backup Space Repository](https://huggingface.co/spaces/zadid6pretam/GOTabPFN_CPU)
 
 ```bibtex
 @inproceedings{habib2026gotabpfn,
@@ -209,6 +213,25 @@ Our recent ICML 2026 Regular main conference paper on feature ordering and compr
   year      = {2026}
 }
 ```
+
+### iSyncTab (ECCV 2026)
+
+Our neural synchrony-based cross-modal feature sequencing framework for multimodal learning with image and tabular data. iSyncTab addresses the image–tabular integration problem by aligning and sequencing cross-modal feature groups before structured multimodal representation learning.
+
+- **iSyncTab: Learning Cross-Modal Feature Sequencing for Image-Tabular Data via Neural Synchrony**  
+- Accepted at the European Conference on Computer Vision (ECCV 2026)
+- GitHub: https://github.com/zadid6pretam/iSyncTab (will be made public soon)
+- Project Page: https://www.zadidhabib.com/isynctab.html (will be made public soon)
+
+```bibtex
+@inproceedings{habib2026isynctab,
+  title     = {iSyncTab: Learning Cross-Modal Feature Sequencing for Image-Tabular Data via Neural Synchrony},
+  author    = {Habib, Al Zadid Sultan Bin and Ahamed, Md Younus and Gyawali, Prashnna and Doretto, Gianfranco and Adjeroh, Donald A.},
+  booktitle = {Proceedings of the European Conference on Computer Vision},
+  year      = {2026}
+}
+```
+- If you are interested in cross-modal feature sequencing, neural synchrony-guided image–tabular integration, and order-aware multimodal representation learning, please refer to the iSyncTab repository, project page, and paper.
 
 ### BSTabDiff (ICLR 2026 DeLTa Workshop, non-archival)
 
