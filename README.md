@@ -200,7 +200,7 @@ Our recent ICML 2026 Regular main conference paper on feature ordering and compr
 - **GOTabPFN: From Feature Ordering to Compact Tokenization for Tabular Foundation Models on High-Dimensional Data**
 
 - GitHub: https://github.com/zadid6pretam/GOTabPFN
-- - **Find it on ICML portal:** https://icml.cc/virtual/2026/poster/62523
+-  **Find it on ICML portal:** https://icml.cc/virtual/2026/poster/62523
 - **Project Webpage:** https://www.zadidhabib.com/gotabpfn.html
 - **OpenReview:** https://openreview.net/forum?id=fpqfV3lCIB
 - **Hugging Face Space:** [ZeroGPU Live Demo](https://zadid6pretam-GOTabPFN.hf.space) *(recommended; faster GPU-backed testing)* | [CPU Backup Demo](https://zadid6pretam-GOTabPFN-CPU.hf.space) *(use if ZeroGPU is unavailable)* | [ZeroGPU Space Repository](https://huggingface.co/spaces/zadid6pretam/GOTabPFN) | [CPU Backup Space Repository](https://huggingface.co/spaces/zadid6pretam/GOTabPFN_CPU)
@@ -220,8 +220,11 @@ Our neural synchrony-based cross-modal feature sequencing framework for multimod
 
 - **iSyncTab: Learning Cross-Modal Feature Sequencing for Image-Tabular Data via Neural Synchrony**  
 - Accepted at the European Conference on Computer Vision (ECCV 2026)
-- GitHub: https://github.com/zadid6pretam/iSyncTab (will be made public soon)
-- Project Page: https://www.zadidhabib.com/isynctab.html (will be made public soon)
+- GitHub: https://github.com/zadid6pretam/iSyncTab
+- Project Page: https://www.zadidhabib.com/isynctab.html (Under Construction)
+- ECCV Page: https://eccv.ecva.net/virtual/2026/poster/5442
+- Paper: https://doi.org/10.1007/978-3-032-37035-8 (In Press)
+- Hugging Face: https://huggingface.co/zadid6pretam/iSyncTab-HAM10000 (Model weights and checkpoint for the HAM10000 dataset)
 
 ```bibtex
 @inproceedings{habib2026isynctab,
