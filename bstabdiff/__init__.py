@@ -1,8 +1,8 @@
 """
-BSTabDiff supplemental package.
+BSTabDiff package
 
 This module exposes the main BSTabDiff generator, GO-BS ordering variants,
-and helper utilities used in the NeurIPS 2026 anonymous supplemental code.
+and helper utilities used in the NeurIPS 2026 BSTabDiff paper.
 """
 
 from .bstabdiff_gobs import (
