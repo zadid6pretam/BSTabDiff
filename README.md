@@ -7,10 +7,8 @@
 ![Architecture](https://img.shields.io/badge/Architecture-Block--Subunit%20Generator-informational)
 ![Latent Prior](https://img.shields.io/badge/Latent%20Prior-Diffusion%20%2F%20Flow-purple)
 ![Data Regime](https://img.shields.io/badge/Regime-n%20%3C%3C%20m-critical)
-
 [![Conference](https://img.shields.io/badge/NeurIPS-2026-8A2BE2)](https://neurips.cc/)
 ![Status](https://img.shields.io/badge/Status-Accepted-brightgreen)
-
 [![Earlier Version](https://img.shields.io/badge/Earlier%20Version-ICLR%202026%20DeLTa-blue)](https://iclr.cc/virtual/2026/workshop/10000780)
 [![OpenReview](https://img.shields.io/badge/OpenReview-Workshop%20Paper-red)](https://openreview.net/forum?id=RKNDy0KhGT)
 [![Workshop Page](https://img.shields.io/badge/DeLTa%202026-Website-1f6feb)](https://delta-workshop.github.io/DeLTa2026/)
