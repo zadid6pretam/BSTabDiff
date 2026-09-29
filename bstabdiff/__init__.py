@@ -1,13 +1,9 @@
 """
 BSTabDiff package.
 
-This module exposes:
-
-- The high-level sklearn-style BSTabDiff estimator.
-- The original BSTabDiff generator API.
-- GO-BS and GO-BS-FC feature ordering variants.
-- Prior and emission components.
-- Helper utilities used in the NeurIPS 2026 BSTabDiff paper.
+This module exposes the high-level sklearn-style BSTabDiff estimator,
+the original BSTabDiff generator, GO-BS/GO-BS-FC ordering variants, and helper
+utilities used in the NeurIPS 2026 BSTabDiff paper.
 """
 
 # ============================================================
@@ -52,52 +48,32 @@ from .bstabdiff_gobs import (
 )
 
 
-# ============================================================
-# Package version
-# ============================================================
-
 __version__ = "0.2.0"
 
 
-# ============================================================
-# Public API
-# ============================================================
-
 __all__ = [
-    # --------------------------------------------------------
-    # High-level sklearn-style API
-    # --------------------------------------------------------
+    # High-level API
     "BSTabDiff",
 
-    # --------------------------------------------------------
-    # Original / research API
-    # --------------------------------------------------------
+    # Core API
     "fit_block_subunit_generator",
     "BlockSubunitGenerator",
 
-    # --------------------------------------------------------
     # Feature schema
-    # --------------------------------------------------------
     "FeatureSpec",
 
-    # --------------------------------------------------------
     # GO-BS ordering
-    # --------------------------------------------------------
     "GOBSOrdering",
     "GOBSFCOrdering",
     "GOBSResult",
 
-    # --------------------------------------------------------
     # Priors and emission components
-    # --------------------------------------------------------
     "DiffusionPrior",
     "FlowPrior",
     "EmissionParams",
     "EmpiricalMarginals",
 
-    # --------------------------------------------------------
     # Utilities
-    # --------------------------------------------------------
     "set_seed",
     "make_equal_blocks",
     "apply_permutation",
