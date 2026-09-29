@@ -1,9 +1,25 @@
 """
-BSTabDiff package
+BSTabDiff package.
 
-This module exposes the main BSTabDiff generator, GO-BS ordering variants,
-and helper utilities used in the NeurIPS 2026 BSTabDiff paper.
+This module exposes:
+
+- The high-level sklearn-style BSTabDiff estimator.
+- The original BSTabDiff generator API.
+- GO-BS and GO-BS-FC feature ordering variants.
+- Prior and emission components.
+- Helper utilities used in the NeurIPS 2026 BSTabDiff paper.
 """
+
+# ============================================================
+# High-level sklearn-style API
+# ============================================================
+
+from .estimator import BSTabDiff
+
+
+# ============================================================
+# Core BSTabDiff implementation
+# ============================================================
 
 from .bstabdiff_gobs import (
     # Core API
@@ -35,28 +51,53 @@ from .bstabdiff_gobs import (
     fit_emissions_from_inferred_h,
 )
 
-__version__ = "0.1.0"
+
+# ============================================================
+# Package version
+# ============================================================
+
+__version__ = "0.2.0"
+
+
+# ============================================================
+# Public API
+# ============================================================
 
 __all__ = [
-    # Core API
+    # --------------------------------------------------------
+    # High-level sklearn-style API
+    # --------------------------------------------------------
+    "BSTabDiff",
+
+    # --------------------------------------------------------
+    # Original / research API
+    # --------------------------------------------------------
     "fit_block_subunit_generator",
     "BlockSubunitGenerator",
 
+    # --------------------------------------------------------
     # Feature schema
+    # --------------------------------------------------------
     "FeatureSpec",
 
+    # --------------------------------------------------------
     # GO-BS ordering
+    # --------------------------------------------------------
     "GOBSOrdering",
     "GOBSFCOrdering",
     "GOBSResult",
 
+    # --------------------------------------------------------
     # Priors and emission components
+    # --------------------------------------------------------
     "DiffusionPrior",
     "FlowPrior",
     "EmissionParams",
     "EmpiricalMarginals",
 
+    # --------------------------------------------------------
     # Utilities
+    # --------------------------------------------------------
     "set_seed",
     "make_equal_blocks",
     "apply_permutation",
