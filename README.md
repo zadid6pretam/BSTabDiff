@@ -253,14 +253,13 @@ T_r=\mathrm{median}\left\{\kappa_i:\mathcal{R}_{\rho}(D_i)=r\right\}.
 A new dataset is then classified as:
 
 ```math
-\mathrm{Scale}(D)=
-\left\{
-\begin{array}{ll}
-\mathrm{Micro}, & \kappa<T_{\mathcal{R}_{\rho}(D)} \\
-\mathrm{Macro}, & \kappa\ge T_{\mathcal{R}_{\rho}(D)}
-\end{array}
-\right
+\mathrm{Scale}(D)=\mathrm{Micro}\quad\mathrm{if}\quad \kappa<T_{\mathcal{R}_{\rho}(D)}
 ```
+
+```math
+\mathrm{Scale}(D)=\mathrm{Macro}\quad\mathrm{if}\quad \kappa\ge T_{\mathcal{R}_{\rho}(D)}
+```
+
 
 The default ordering variant is:
 
