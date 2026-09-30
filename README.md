@@ -254,10 +254,12 @@ A new dataset is then classified as:
 
 ```math
 \mathrm{Scale}(D)=
-\begin{cases}
-\mathrm{Micro}, & \kappa<T_{\mathcal{R}_{\rho}(D)},\\
-\mathrm{Macro}, & \kappa\ge T_{\mathcal{R}_{\rho}(D)}.
-\end{cases}
+\left\{
+\begin{array}{ll}
+\mathrm{Micro}, & \kappa<T_{\mathcal{R}_{\rho}(D)} \\
+\mathrm{Macro}, & \kappa\ge T_{\mathcal{R}_{\rho}(D)}
+\end{array}
+\right
 ```
 
 The default ordering variant is:
