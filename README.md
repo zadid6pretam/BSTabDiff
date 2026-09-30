@@ -159,18 +159,18 @@ For **Optuna-tuned configurations**, `M` is treated as a dataset-specific hyperp
 
 For the **default/no-tuning configuration**, BSTabDiff initializes `M` using both the HDLSS severity `ρ` and dataset scale `κ`:
 
-\[
+```math
 M=
 \begin{cases}
-m, & m\leq 64,\\
+m, & m \le 64,\\
 64, & m>64 \text{ and } \rho<10,\\
-\min\!\left(\widetilde M(\kappa),m\right), & \rho\geq10,
+\min\left(\widetilde{M}(\kappa),m\right), & \rho\ge10.
 \end{cases}
-\]
+```
 
 where
 
-\[
+```math
 \widetilde M(\kappa)=
 \begin{cases}
 32, & \kappa < 2.5\times10^{5},\\
@@ -178,7 +178,7 @@ where
 128, & 10^{6}\leq\kappa<3\times10^{6},\\
 192, & \kappa\geq3\times10^{6}.
 \end{cases}
-\]
+```
 
 In practical terms:
 
@@ -238,36 +238,36 @@ The choice is based on both:
 
 Let
 
-\[
+```math
 \mathcal{R}_{\rho}(D)
-\]
+```
 
 denote the dataset regime assigned by the BSTabDiff/DynaTab-style taxonomy, e.g. `HDLSS`, `HDHSS`, `LDHSS`, `LDLSS`, or `MixedRegime`.
 
 For each regime \(r\), define a regime-specific scale threshold:
 
-\[
+```math
 T_r =
 \operatorname{median}
 \left\{
 \kappa_i :
 \mathcal{R}_{\rho}(D_i)=r
 \right\}.
-\]
+```
 
 A new dataset is then classified as:
 
-\[
+```math
 \operatorname{Scale}(D)=
 \begin{cases}
 \text{Micro}, & \kappa<T_{\mathcal{R}_{\rho}(D)},\\
 \text{Macro}, & \kappa\geq T_{\mathcal{R}_{\rho}(D)}.
 \end{cases}
-\]
+```
 
 The default ordering variant is:
 
-\[
+```math
 \mathcal{V}(D)=
 \begin{cases}
 \text{GO-BS-FC},
@@ -281,7 +281,7 @@ The default ordering variant is:
 &
 \text{otherwise}.
 \end{cases}
-\]
+```
 
 In practical terms:
 
