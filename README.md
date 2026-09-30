@@ -247,12 +247,7 @@ denote the dataset regime assigned by the BSTabDiff/DynaTab-style taxonomy, e.g.
 For each regime \(r\), define a regime-specific scale threshold:
 
 ```math
-T_r =
-\operatorname{median}
-\left\{
-\kappa_i :
-\mathcal{R}_{\rho}(D_i)=r
-\right\}.
+T_r=\operatorname{median}\left\{\kappa_i:\mathcal{R}_{\rho}(D_i)=r\right\}.
 ```
 
 A new dataset is then classified as:
@@ -260,26 +255,17 @@ A new dataset is then classified as:
 ```math
 \operatorname{Scale}(D)=
 \begin{cases}
-\text{Micro}, & \kappa<T_{\mathcal{R}_{\rho}(D)},\\
-\text{Macro}, & \kappa\geq T_{\mathcal{R}_{\rho}(D)}.
+\mathrm{Micro}, & \kappa<T_{\mathcal{R}_{\rho}(D)},\\
+\mathrm{Macro}, & \kappa\ge T_{\mathcal{R}_{\rho}(D)}.
 \end{cases}
 ```
 
 The default ordering variant is:
-
 ```math
 \mathcal{V}(D)=
 \begin{cases}
-\text{GO-BS-FC},
-&
-\operatorname{Scale}(D)=\text{Macro}
-\ \land\
-\mathcal{R}_{\rho}(D)\in
-\{\text{HDLSS},\text{HDHSS}\},
-\\
-\text{GO-BS},
-&
-\text{otherwise}.
+\mathrm{GO\!-\!BS\!-\!FC}, & \operatorname{Scale}(D)=\mathrm{Macro}\ \land\ \mathcal{R}_{\rho}(D)\in\{\mathrm{HDLSS},\mathrm{HDHSS}\},\\
+\mathrm{GO\!-\!BS}, & \mathrm{otherwise}.
 \end{cases}
 ```
 
