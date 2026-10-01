@@ -203,9 +203,9 @@ For the **default/no-tuning configuration**, BSTabDiff initializes `M` using bot
 ```math
 M=
 \begin{cases}
-m, & m \le 64,\\
-64, & m>64 \text{ and } \rho<10,\\
-\min\left(\widetilde{M}(\kappa),m\right), & \rho\ge10.
+m, & m \le 64\\
+64, & m>64 \text{ and } \rho<10\\
+\min\left(\widetilde{M}(\kappa),m\right), & \rho\ge10
 \end{cases}
 ```
 
@@ -214,10 +214,10 @@ where
 ```math
 \widetilde M(\kappa)=
 \begin{cases}
-32, & \kappa < 2.5\times10^{5},\\
-64, & 2.5\times10^{5}\leq\kappa<10^{6},\\
-128, & 10^{6}\leq\kappa<3\times10^{6},\\
-192, & \kappa\geq3\times10^{6}.
+32, & \kappa < 2.5\times10^{5}\\
+64, & 2.5\times10^{5}\leq\kappa<10^{6}\\
+128, & 10^{6}\leq\kappa<3\times10^{6}\\
+192, & \kappa\geq3\times10^{6}
 \end{cases}
 ```
 
