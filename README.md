@@ -1325,6 +1325,13 @@ if y_syn is not None:
 print("Saved synthetic data.")
 ```
 
+### Mixed-Type Data with Missingness
+
+BSTabDiff also supports **mixed-type tabular data** containing both continuous and categorical features, including datasets with missing values. Categorical variables are specified explicitly through `FeatureSpec`, while missingness is modeled jointly during generation.
+
+For a complete runnable example using a dummy mixed-type dataset with categorical values and structured missingness, see:
+
+**[BSTabDiff Mixed-Data Smoke Test](https://github.com/zadid6pretam/BSTabDiff/blob/main/Smoke%20Tests/BSTabDiff_MixedData_SmokeTest.ipynb)**
 
 ## Our Previous Related Work Involving Tabular Data
 
