@@ -43,41 +43,86 @@ BibTeX:
 
 ## Files and Repository Structure
 
-### Python package: `bstabdiff/`
+The repository is organized into three main components:
 
-This folder contains the core BSTabDiff implementation:
+```text
+BSTabDiff/
+├── bstabdiff/
+├── Experimental Notebooks/
+├── Smoke Tests/
+├── BSTabDiffArchi.png
+├── README.md
+├── requirements.txt
+├── pyproject.toml
+├── setup.cfg
+└── LICENSE
+```
 
-- `__init__.py` - Package initializer and high-level API exports.
-- `block_subunit_gen.py` - Main BSTabDiff implementation, including feature schema, empirical marginals, block-subunit emissions, diffusion/flow priors, training, and synthetic sampling utilities.
+### 1. Model Package: `bstabdiff/`
 
-### Notebooks
-**Since May 30, 2026, all Jupyter notebook previews are failing with "An error occurred" message. This affects both my own notebooks and others' repositories. Using nbformat v5.10.4 and nbconvert v7.17.1. Notebooks are valid and working locally. This appears to be a GitHub-side rendering issue.**
-- See: https://github.com/orgs/community/discussions/197350
+The `bstabdiff/` folder contains the core BSTabDiff implementation and the public Python API.
 
-- **`Dummy Example Usage.ipynb`**  
-  Contains simple toy examples showing how to install/import the `bstabdiff` package, fit BSTabDiff on a dummy HDLSS dataset, and sample synthetic data.
+- **`__init__.py`**  
+  Package initializer exposing the main BSTabDiff classes, utilities, and high-level API.
 
-- **`BSTabDiff_Colon.ipynb`**  
-  Contains the Colon dataset experiments from the paper. The downstream classifiers include Logistic Regression, TabPFN-2.5 (currently applicable only when the number of features is within its supported range, so Colon is eligible), TANDEM (NeurIPS 2025), and CatBoost. This notebook also includes the paper’s ablation studies and related fidelity analysis.
+- **`bstabdiff_gobs.py`**  
+  Extended BSTabDiff implementation with **Graph-guided Ordering with Block Segmentation (GO-BS)** and **GO-BS-FC**, including dependency-aware feature ordering, block construction, boundary refinement, and integration with the BSTabDiff generator.
 
-- **`BSTabDiff_GLI.ipynb`**  
-  Contains the GLI-85 experiments using Logistic Regression as the downstream classifier, along with selected fidelity analysis.
+- **`estimator.py`**  
+  High-level estimator interface providing the user-facing `BSTabDiff` API for model initialization, `fit(...)`, synthetic sampling, and configuration of the underlying generator and ordering variants.
 
-- **`BSTabDiff_Lung.ipynb`**  
-  Contains the Lung dataset experiments using Logistic Regression as the downstream classifier, along with selected fidelity analysis.
+For most users, the recommended interface is:
 
-- **`BSTabDiff_PIP_Install_Check.ipynb`**
-    Demonstration of BSTabDiff in a Google Colab notebook using pip installation with some toy examples.
+```python
+from bstabdiff import BSTabDiff
+```
 
-### Other top-level files
+### 2. `Experimental Notebooks/`
 
-- **`requirements.txt`** - Python dependencies required to run the BSTabDiff package and notebooks.
-- **`BSTabDiffArchi.png`** - High-level architecture diagram of the BSTabDiff framework.
-- **`LICENSE`** - MIT license for this repository.
-- **`README.md`** - Project overview, installation, usage instructions, and citation information.
-- **`.gitignore`** - Standard Git ignore rules for Python and Jupyter projects.
-- **`pyproject.toml`** - Build system and packaging metadata for installation.
+The **`Experimental Notebooks/`** folder contains cleaned versions of most of the experimental notebooks used to produce results reported in the NeurIPS paper and rebuttal.
+
+These notebooks cover dataset-specific experiments, downstream evaluation, ablation studies, fidelity analysis, GO-BS/GO-BS-FC experiments, resource analysis, and additional experiments introduced during the rebuttal process.
+
+As stated during the rebuttal, we provide the **model package together with experimental notebooks containing displayed outputs/results** to improve reproducibility and make it easier to inspect the reported experiments.
+
+We have cleaned and organized most of the notebooks used in the project before public release. A small number of auxiliary development notebooks are not yet included because they require additional cleanup and documentation before they can be released in a reasonably readable and reproducible form.
+
+See the folder here:
+
+**[Experimental Notebooks](https://github.com/zadid6pretam/BSTabDiff/tree/main/Experimental%20Notebooks)**
+
+### 3. `Smoke Tests/`
+
+The **`Smoke Tests/`** folder contains lightweight notebooks intended to verify installation, API behavior, training, sampling, tuning, and different supported data configurations without requiring the full experimental pipeline.
+
+- **`BSTabDiff_SmokeTest.ipynb`**  
+  Basic end-to-end smoke test for fitting BSTabDiff and generating synthetic samples.
+
+- **`BSTabDiff_Tuning_Smoke_Test.ipynb`**  
+  Lightweight demonstration of hyperparameter tuning and subsequent BSTabDiff training using selected parameters.
+
+- **`BSTabDiff_MixedData_SmokeTest.ipynb`**  
+  Demonstrates BSTabDiff on mixed-type data containing both continuous and categorical variables, including explicit missingness.
+
+- **`BSTabDiff_PIP_Install_Check.ipynb`**  
+  Google Colab smoke test demonstrating installation of BSTabDiff through `pip`, importing the installed package, fitting the model, and generating synthetic data in a clean notebook environment.
+
+See the folder here:
+
+**[Smoke Tests](https://github.com/zadid6pretam/BSTabDiff/tree/main/Smoke%20Tests)**
+
+### Architecture Figure
+
+- **`BSTabDiffArchi.png`**  
+  High-level architecture figure illustrating the BSTabDiff framework, including block-latent generation, diffusion/flow priors, feature decoding, missingness modeling, and reconstruction in the observed feature space.
+
+### Other Top-Level Files
+
+- **`requirements.txt`** - Main Python dependencies used by the repository.
+- **`pyproject.toml`** - Build-system and package metadata.
 - **`setup.cfg`** - Package configuration and installation metadata.
+- **`LICENSE`** - Repository license.
+- **`README.md`** - Project overview, installation instructions, usage examples, reproducibility information, and links to experimental resources.
 
 ### Tested Environment
 
