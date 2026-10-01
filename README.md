@@ -79,17 +79,7 @@ from bstabdiff import BSTabDiff
 
 ### 2. `Experimental Notebooks/`
 
-The **`Experimental Notebooks/`** folder contains cleaned versions of most of the experimental notebooks used to produce results reported in the NeurIPS paper and rebuttal.
-
-These notebooks cover dataset-specific experiments, downstream evaluation, ablation studies, fidelity analysis, GO-BS/GO-BS-FC experiments, resource analysis, and additional experiments introduced during the rebuttal process.
-
-As stated during the rebuttal, we provide the **model package together with experimental notebooks containing displayed outputs/results** to improve reproducibility and make it easier to inspect the reported experiments.
-
-We have cleaned and organized most of the notebooks used in the project before public release. A small number of auxiliary development notebooks are not yet included because they require additional cleanup and documentation before they can be released in a reasonably readable and reproducible form.
-
-See the folder here:
-
-**[Experimental Notebooks](https://github.com/zadid6pretam/BSTabDiff/tree/main/Experimental%20Notebooks)**
+The **`Experimental Notebooks/`** folder contains cleaned versions of most of the notebooks used during the experiments reported in the previous ICLR Workshop paper, NeurIPS paper and NeurIPS rebuttal. These notebooks are provided primarily for **verification of the reported results and displayed outputs**, including dataset-specific experiments, downstream evaluation, ablation studies, fidelity analysis, GO-BS/GO-BS-FC experiments, resource analysis, and additional rebuttal experiments. Because the codebase evolved during development, some notebooks reference earlier or intermediate model/package names that were used at different stages of the project. They should therefore be viewed mainly as experimental records for reproducing and inspecting the reported results, while the current `bstabdiff/` package should be used for new experiments and applications. As stated during the NeurIPS rebuttal, we provide the **current model package together with experimental notebooks containing displayed outputs/results** to make the reported findings easier to inspect and verify. We have cleaned and organized most of the notebooks before public release. A small number of auxiliary development notebooks are not yet included because they require additional cleanup and documentation before they can be released in a reasonably readable form. See the folder here: **[Experimental Notebooks](https://github.com/zadid6pretam/BSTabDiff/tree/main/Experimental%20Notebooks)**
 
 ### 3. `Smoke Tests/`
 
@@ -107,9 +97,7 @@ The **`Smoke Tests/`** folder contains lightweight notebooks intended to verify 
 - **`BSTabDiff_PIP_Install_Check.ipynb`**  
   Google Colab smoke test demonstrating installation of BSTabDiff through `pip`, importing the installed package, fitting the model, and generating synthetic data in a clean notebook environment.
 
-See the folder here:
-
-**[Smoke Tests](https://github.com/zadid6pretam/BSTabDiff/tree/main/Smoke%20Tests)**
+See the folder here: **[Smoke Tests](https://github.com/zadid6pretam/BSTabDiff/tree/main/Smoke%20Tests)**
 
 ### Architecture Figure
 
@@ -1382,9 +1370,7 @@ print("Saved synthetic data.")
 
 BSTabDiff also supports **mixed-type tabular data** containing both continuous and categorical features, including datasets with missing values. Categorical variables are specified explicitly through `FeatureSpec`, while missingness is modeled jointly during generation.
 
-For a complete runnable example using a dummy mixed-type dataset with categorical values and structured missingness, see:
-
-**[BSTabDiff Mixed-Data Smoke Test](https://github.com/zadid6pretam/BSTabDiff/blob/main/Smoke%20Tests/BSTabDiff_MixedData_SmokeTest.ipynb)**
+For a complete runnable example using a dummy mixed-type dataset with categorical values and structured missingness, see: **[BSTabDiff Mixed-Data Smoke Test](https://github.com/zadid6pretam/BSTabDiff/blob/main/Smoke%20Tests/BSTabDiff_MixedData_SmokeTest.ipynb)**
 
 ## Our Previous Related Work Involving Tabular Data
 
