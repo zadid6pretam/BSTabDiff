@@ -53,7 +53,6 @@ dependencies = [
   "kmeans_gpu==0.0.5",
   "optuna==4.8.0",
   "psutil==7.0.0",
-  "codecarbon==3.2.6",
   "jupyter==1.1.1",
   "ipykernel==7.2.0"
 ]
