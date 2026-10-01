@@ -280,7 +280,7 @@ The choice is based on both:
 Let $\mathcal{R}_{\rho}(D)$ denote the dataset regime assigned by the BSTabDiff/DynaTab/GOTabPFN-style taxonomy, e.g. `HDLSS`, `HDHSS`, `LDHSS`, `LDLSS`, or `MixedRegime`. For each regime $r$, define a regime-specific scale threshold:
 
 ```math
-T_r=\mathrm{median}\left\{\kappa_i:\mathcal{R}_{\rho}(D_i)=r\right\}.
+T_r=\mathrm{median}\left\{\kappa_i:\mathcal{R}_{\rho}(D_i)=r\right\}
 ```
 
 A new dataset is then classified as:
