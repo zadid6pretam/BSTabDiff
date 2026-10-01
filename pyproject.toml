@@ -50,8 +50,6 @@ dependencies = [
   "matplotlib==3.10.8",
   "tqdm==4.67.3",
   "torch==2.5.1",
-  "catboost==1.2.8",
-  "tabpfn==6.3.1",
   "kmeans_gpu==0.0.5",
   "optuna==4.8.0",
   "psutil==7.0.0",
@@ -61,10 +59,10 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/zadid6pretam/BSTabDiff"
+Homepage = "https://www.zadidhabib.com/bstabdiff.html"
 Repository = "https://github.com/zadid6pretam/BSTabDiff"
 Issues = "https://github.com/zadid6pretam/BSTabDiff/issues"
-Paper = "https://openreview.net/forum?id=RKNDy0KhGT"
+Paper = "https://openreview.net/forum?id=ciPCMXX1aj"
 
 [tool.setuptools.packages.find]
 where = ["."]
