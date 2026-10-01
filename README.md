@@ -38,7 +38,7 @@ BibTeX:
   year      = {2026}
 }
 ```
-- ICLR Page: https://iclr.cc/virtual/2026/10017199
+- ICLR Page for Workshop version: https://iclr.cc/virtual/2026/10017199
 - OpenReview: https://openreview.net/forum?id=RKNDy0KhGT
 
 ## Files and Repository Structure
