@@ -97,7 +97,7 @@ The **`Smoke Tests/`** folder contains lightweight notebooks intended to verify 
 - **`BSTabDiff_PIP_Install_Check.ipynb`**  
   Google Colab smoke test demonstrating installation of BSTabDiff through `pip`, importing the installed package, fitting the model, and generating synthetic data in a clean notebook environment.
 
-- - **`BSTabDiff_CarbonTracking.ipynb`**  
+- **`BSTabDiff_CarbonTracking.ipynb`**  
   Demonstrates BSTabDiff energy and CO₂e tracking with CodeCarbon on the Colon dataset, together with a separate 5×5 cross-validated TSTR evaluation using Logistic Regression.
 
 See the folder here: **[Smoke Tests](https://github.com/zadid6pretam/BSTabDiff/tree/main/Smoke%20Tests)**
