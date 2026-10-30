@@ -64,7 +64,7 @@ BibTeX:
 **NeurIPS 2026 - Main Conference (Poster)**  
 [NeurIPS Poster Page](https://neurips.cc/virtual/2026/loc/atlanta/poster/151140) | [OpenReview](https://openreview.net/forum?id=ciPCMXX1aj)
 
-**Earlier Version — ICLR 2026 DeLTa Workshop**  
+**Earlier Version - ICLR 2026 DeLTa Workshop**  
 [ICLR Workshop Paper](https://iclr.cc/virtual/2026/10017199) | [OpenReview](https://openreview.net/forum?id=RKNDy0KhGT) | [Workshop Website](https://delta-workshop.github.io/DeLTa2026/)
 
 
