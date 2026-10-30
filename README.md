@@ -59,8 +59,6 @@ BibTeX:
 
 ### Publication Venues
 
-**BSTabDiff: Block-Subunit Diffusion Priors for High-Dimensional Tabular Data Generation**
-
 **NeurIPS 2026 - Main Conference (Poster)**  
 [NeurIPS Poster Page](https://neurips.cc/virtual/2026/loc/atlanta/poster/151140) | [OpenReview](https://openreview.net/forum?id=ciPCMXX1aj)
 
