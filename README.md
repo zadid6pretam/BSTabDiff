@@ -36,8 +36,10 @@ BibTeX:
   year      = {2026}
 }
 ```
+- NeurIPS Page: https://neurips.cc/virtual/2026/loc/atlanta/poster/151140
+- OpenReview: https://openreview.net/forum?id=ciPCMXX1aj
 - ICLR Page for Workshop version: https://iclr.cc/virtual/2026/10017199
-- OpenReview: https://openreview.net/forum?id=RKNDy0KhGT
+- OpenReview for Workshop version: https://openreview.net/forum?id=RKNDy0KhGT
 
 ## Files and Repository Structure
 
