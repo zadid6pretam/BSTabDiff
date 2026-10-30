@@ -18,8 +18,6 @@
   <img src="./BSTabDiffArchi.png" alt="BSTabDiff Architecture" width="900">
 </p>
 
-**This repository is under construction now, more updates will be made for the NeurIPS version**
-
 BSTabDiff is a block-subunit generative framework designed primarily for **High-Dimensional Low-Sample Size (HDLSS) tabular data synthesis**. Instead of learning dense dependence directly in the original `m`-dimensional feature space, BSTabDiff organizes features into **`M` dependency-aware latent blocks, where `M << m`**, optionally using **Graph-guided Ordering with Block Segmentation (GO-BS)** or its feature-clustered variant **GO-BS-FC** to construct coherent feature neighborhoods. Global dependence is learned in the compact block-latent space using diffusion or normalizing-flow priors, while the full-dimensional table is reconstructed through block-conditioned copula decoding, feature-wise marginal transformations, and explicit missingness modeling. This design makes BSTabDiff particularly suitable for omics-style and other HDLSS problems, where direct high-dimensional density estimation is often ill-conditioned. Across HDLSS benchmarks, BSTabDiff produces high-fidelity synthetic data with strong downstream utility, often approaching real-data performance, while additional experiments indicate that the block-subunit design can also generalize beyond the strict HDLSS regime.
 
 ## Citation
