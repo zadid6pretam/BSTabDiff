@@ -1,17 +1,37 @@
 # BSTabDiff: Block-Subunit Diffusion Priors for High-Dimensional Tabular Data Generation (NeurIPS 2026)
 
+
+<!-- ========================================================= -->
+<!-- BSTabDiff: Framework and Implementation -->
+<!-- ========================================================= -->
+
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![Task](https://img.shields.io/badge/Task-HDLSS%20Tabular%20Synthesis-orange)
+![Task](https://img.shields.io/badge/Task-Tabular%20Data%20Synthesis-orange)
 ![Model](https://img.shields.io/badge/Model-BSTabDiff-blueviolet)
 ![Architecture](https://img.shields.io/badge/Architecture-Block--Subunit%20Generator-informational)
 ![Latent Prior](https://img.shields.io/badge/Latent%20Prior-Diffusion%20%2F%20Flow-purple)
-![Data Regime](https://img.shields.io/badge/Regime-n%20%3C%3C%20m-critical)
-[![Conference](https://img.shields.io/badge/NeurIPS-2026-8A2BE2)](https://neurips.cc/)
-![Status](https://img.shields.io/badge/Status-Accepted-brightgreen)
-[![Earlier Version](https://img.shields.io/badge/Earlier%20Version-ICLR%202026%20DeLTa-blue)](https://iclr.cc/virtual/2026/workshop/10000780)
-[![OpenReview](https://img.shields.io/badge/OpenReview-Workshop%20Paper-red)](https://openreview.net/forum?id=RKNDy0KhGT)
-[![Workshop Page](https://img.shields.io/badge/DeLTa%202026-Website-1f6feb)](https://delta-workshop.github.io/DeLTa2026/)
+![Regime](https://img.shields.io/badge/Regime-HDLSS%20%26%20Beyond-critical)
+![Evaluation](https://img.shields.io/badge/Evaluation-18%20Datasets%20%7C%2010%20Baselines-teal)
+
+<!-- ========================================================= -->
+<!-- NeurIPS 2026: Main Conference -->
+<!-- ========================================================= -->
+
+[![NeurIPS](https://img.shields.io/badge/NeurIPS-2026%20Main%20Conference-8A2BE2)](https://neurips.cc/virtual/2026/loc/atlanta/poster/151140)
+[![Status](https://img.shields.io/badge/Status-Accepted-brightgreen)](https://neurips.cc/virtual/2026/loc/atlanta/poster/151140)
+[![NeurIPS Poster](https://img.shields.io/badge/NeurIPS-Poster%20Page-6A5ACD)](https://neurips.cc/virtual/2026/loc/atlanta/poster/151140)
+[![OpenReview](https://img.shields.io/badge/OpenReview-Main%20Paper-B31B1B)](https://openreview.net/forum?id=ciPCMXX1aj)
+
+<!-- ========================================================= -->
+<!-- ICLR 2026: Earlier DeLTa Workshop Version -->
+<!-- ========================================================= -->
+
+[![Earlier Version](https://img.shields.io/badge/Earlier%20Version-ICLR%202026%20DeLTa-blue)](https://iclr.cc/virtual/2026/10017199)
+[![ICLR Workshop Paper](https://img.shields.io/badge/ICLR-Workshop%20Paper-4169E1)](https://iclr.cc/virtual/2026/10017199)
+[![Workshop OpenReview](https://img.shields.io/badge/OpenReview-Workshop%20Version-red)](https://openreview.net/forum?id=RKNDy0KhGT)
+[![DeLTa Workshop](https://img.shields.io/badge/DeLTa%202026-Workshop%20Website-1f6feb)](https://delta-workshop.github.io/DeLTa2026/)
+
 
 
 <p align="center">
@@ -36,10 +56,17 @@ BibTeX:
   year      = {2026}
 }
 ```
-- NeurIPS Page: https://neurips.cc/virtual/2026/loc/atlanta/poster/151140
-- OpenReview: https://openreview.net/forum?id=ciPCMXX1aj
-- ICLR Page for Workshop version: https://iclr.cc/virtual/2026/10017199
-- OpenReview for Workshop version: https://openreview.net/forum?id=RKNDy0KhGT
+
+### Publications
+
+**BSTabDiff: Block-Subunit Diffusion Priors for High-Dimensional Tabular Data Generation**
+
+**NeurIPS 2026 - Main Conference (Poster)**  
+[NeurIPS Poster Page](https://neurips.cc/virtual/2026/loc/atlanta/poster/151140) | [OpenReview](https://openreview.net/forum?id=ciPCMXX1aj)
+
+**Earlier Version — ICLR 2026 DeLTa Workshop**  
+[ICLR Workshop Paper](https://iclr.cc/virtual/2026/10017199) | [OpenReview](https://openreview.net/forum?id=RKNDy0KhGT) | [Workshop Website](https://delta-workshop.github.io/DeLTa2026/)
+
 
 ## Files and Repository Structure
 
