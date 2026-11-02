@@ -297,8 +297,8 @@ This rule is designed as a practical initialization. If block coherence or held-
 
 BSTabDiff provides two structure-aware ordering variants:
 
-- **GO-BS**: the standard/sample-clustered Graph-guided Ordering with Block Segmentation variant;
-- **GO-BS-FC**: the feature-clustered variant, designed to reduce ordering cost on sufficiently large high-dimensional datasets.
+- **GO-BS**: the standard/sample clustered Graph-guided Ordering with Block Segmentation variant;
+- **GO-BS-FC**: the feature clustered variant, designed to reduce ordering cost on sufficiently large high-dimensional datasets.
 
 The choice is based on both:
 
@@ -349,7 +349,7 @@ Therefore:
 
 The motivation is computational. For very large high-dimensional datasets, full ordering can become the primary bottleneck. GO-BS-FC first partitions the feature space into smaller feature clusters and performs ordering within these smaller subproblems, making it preferable for large `m` or large `κ`.
 
-GO-BS remains the default for Micro-scale and otherwise computationally manageable datasets, where the standard sample-clustered dependency construction can be performed affordably.
+GO-BS remains the default for Micro-scale and otherwise computationally manageable datasets, where the standard sample clustered dependency construction can be performed affordably.
 
 #### Near-boundary tie-breaker
 
@@ -358,13 +358,13 @@ If a dataset lies close to its regime-specific threshold $T_r$, bootstrap cluste
 - more stable **sample clusters** → prefer **GO-BS**;
 - more stable **feature clusters** → prefer **GO-BS-FC**.
 
-This is a secondary tie-breaker; the Micro/Macro rule above remains the primary default-selection rule.
+This is a secondary tie breaker; the Micro/Macro rule above remains the primary default selection rule.
 
 The examples below are complete runnable scripts. Each example uses the Colon dataset for illustration; for another dataset, update the dataset path, target column, and any dataset-specific pre-selected parameters.
 
 ## Example Usage
 
-The seven examples below are complete, standalone scripts. Each can be copied directly and adapted to a new dataset by changing the dataset path, target column, and—where applicable—dataset-specific pre-selected parameters.
+The seven examples below are complete, standalone scripts. Each can be copied directly and adapted to a new dataset by changing the dataset path, target column, and where applicable dataset-specific pre-selected parameters.
 
 ### Example 1 - Default, No Tuning, No Permutation
 ```python
@@ -635,7 +635,7 @@ def final_eval(best):
         del model, clf, clf_real
         cleanup()
 
-    print("\nTUNED NO PERMUTATION — STRICT 5x5")
+    print("\nTUNED NO PERMUTATION - STRICT 5x5")
     print(f"TSTR ACC = {np.mean(tstr_acc):.4f} ± {np.std(tstr_acc):.4f}")
     print(f"TSTR AUC = {np.mean(tstr_auc):.4f} ± {np.std(tstr_auc):.4f}")
     print(f"TRTR ACC = {np.mean(trtr_acc):.4f} ± {np.std(trtr_acc):.4f}")
@@ -868,7 +868,7 @@ def final_eval(best):
         del model, clf, clf_real
         cleanup()
 
-    print("\nTUNED GO-BS — STRICT 5x5")
+    print("\nTUNED GO-BS - STRICT 5x5")
     print(f"TSTR ACC = {np.mean(tstr_acc):.4f} ± {np.std(tstr_acc):.4f}")
     print(f"TSTR AUC = {np.mean(tstr_auc):.4f} ± {np.std(tstr_auc):.4f}")
     print(f"TRTR ACC = {np.mean(trtr_acc):.4f} ± {np.std(trtr_acc):.4f}")
@@ -1065,7 +1065,7 @@ def final_eval(best):
         del model, clf, clf_real
         cleanup()
 
-    print("\nTUNED GO-BS-FC — STRICT 5x5")
+    print("\nTUNED GO-BS-FC - STRICT 5x5")
     print(f"TSTR ACC = {np.mean(tstr_acc):.4f} ± {np.std(tstr_acc):.4f}")
     print(f"TSTR AUC = {np.mean(tstr_auc):.4f} ± {np.std(tstr_auc):.4f}")
     print(f"TRTR ACC = {np.mean(trtr_acc):.4f} ± {np.std(trtr_acc):.4f}")
