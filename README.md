@@ -327,8 +327,8 @@ The default ordering variant is:
 ```math
 \mathcal{V}(D)=
 \begin{cases}
-\mathrm{GO\!-\!BS\!-\!FC}, & \mathrm{Scale}(D)=\mathrm{Macro}\ \land\ \mathcal{R}_{\rho}(D)\in\{\mathrm{HDLSS},\mathrm{HDHSS}\},\\
-\mathrm{GO\!-\!BS}, & \mathrm{otherwise}.
+\mathrm{GO\!-\!BS\!-\!FC}, & \mathrm{Scale}(D)=\mathrm{Macro}\ \land\ \mathcal{R}_{\rho}(D)\in\{\mathrm{HDLSS},\mathrm{HDHSS}\}\\
+\mathrm{GO\!-\!BS}, & \mathrm{otherwise}
 \end{cases}
 ```
 In practical terms:
