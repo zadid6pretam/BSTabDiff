@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "bstabdiff"
-version = "0.2.0"
+version = "0.2.1"
 description = "BSTabDiff: Block-Subunit Diffusion Priors for High-Dimensional Tabular Data Generation (NeurIPS 2026)"
 readme = "README.md"
 requires-python = ">=3.10"
