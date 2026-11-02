@@ -353,7 +353,7 @@ GO-BS remains the default for Micro-scale and otherwise computationally manageab
 
 #### Near-boundary tie-breaker
 
-If a dataset lies close to its regime-specific threshold \(T_r\), bootstrap cluster stability can be used as a secondary diagnostic:
+If a dataset lies close to its regime-specific threshold $T_r$, bootstrap cluster stability can be used as a secondary diagnostic:
 
 - more stable **sample clusters** → prefer **GO-BS**;
 - more stable **feature clusters** → prefer **GO-BS-FC**.
