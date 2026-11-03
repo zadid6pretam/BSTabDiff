@@ -22,7 +22,6 @@
 [![Status](https://img.shields.io/badge/Status-Accepted-brightgreen)](https://neurips.cc/virtual/2026/loc/atlanta/poster/151140)
 [![NeurIPS Poster](https://img.shields.io/badge/NeurIPS-Poster%20Page-6A5ACD)](https://neurips.cc/virtual/2026/loc/atlanta/poster/151140)
 [![OpenReview](https://img.shields.io/badge/OpenReview-Main%20Paper-B31B1B)](https://openreview.net/forum?id=ciPCMXX1aj)
-
 [![Project Website](https://img.shields.io/badge/Project-Website-B31B1B)](https://www.zadidhabib.com/bstabdiff.html)
 
 
