@@ -23,6 +23,7 @@
 [![NeurIPS Poster](https://img.shields.io/badge/NeurIPS-Poster%20Page-6A5ACD)](https://neurips.cc/virtual/2026/loc/atlanta/poster/151140)
 [![OpenReview](https://img.shields.io/badge/OpenReview-Main%20Paper-B31B1B)](https://openreview.net/forum?id=ciPCMXX1aj)
 [![Project Website](https://img.shields.io/badge/Project-Website-B31B1B)](https://www.zadidhabib.com/bstabdiff.html)
+[![Hugging Face Space](https://img.shields.io/badge/🤗%20Hugging%20Face-Space-FFD21E)](https://huggingface.co/spaces/zadid6pretam/BSTabDiff-Studio)
 
 
 <!-- ========================================================= -->
@@ -62,7 +63,7 @@ BibTeX:
 ### Publication Venues
 
 **NeurIPS 2026 - Main Conference (Poster)**  
-[NeurIPS Poster Page](https://neurips.cc/virtual/2026/loc/atlanta/poster/151140) | [OpenReview](https://openreview.net/forum?id=ciPCMXX1aj) | [Project Webpage](https://www.zadidhabib.com/bstabdiff.html)
+[NeurIPS Poster Page](https://neurips.cc/virtual/2026/loc/atlanta/poster/151140) | [OpenReview](https://openreview.net/forum?id=ciPCMXX1aj) | [Project Webpage](https://www.zadidhabib.com/bstabdiff.html) | [🤗 Hugging Face Space](https://huggingface.co/spaces/zadid6pretam/BSTabDiff-Studio)
 
 **Earlier Version - ICLR 2026 DeLTa Workshop**  
 [ICLR Workshop Paper](https://iclr.cc/virtual/2026/10017199) | [OpenReview](https://openreview.net/forum?id=RKNDy0KhGT) | [Workshop Website](https://delta-workshop.github.io/DeLTa2026/)
